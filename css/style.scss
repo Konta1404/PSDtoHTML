@@ -1,0 +1,128 @@
+$pozadinatamna : #252e30;
+$pozadinasvijetla : #f2f2f1;
+$sivaslova : #919191;
+$titlesiva : #566366;
+$bijela : #ffffff;
+$zelena : #2ecc71;
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.btn-custom {
+  font-size: 18px;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 1px solid $zelena;
+  color: $zelena;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: $bijela;
+  transition: all 0.5s ease;
+  text-align: center;
+  min-width: 200px;
+}
+.btn-custom:hover {
+  text-decoration: none;
+  color: $bijela;
+  background-color: $zelena;
+}
+.my_progress {
+  border-radius: 0;
+  height: 30px;
+}
+.my_progress_bar {
+  border-radius: 0;
+  line-height: 30px;
+  background-color: $zelena;
+}
+.my_progress_bar {
+  span {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+#layer {
+}
+#main_nav {
+  background-color: $pozadinatamna;
+}
+#main_nav {
+  .navigation {
+  }
+  .navigation{
+    ul{
+      padding: 0;
+      margin: 0;
+    }
+    ul{
+      li{
+        list-style: none;
+        display: inline-block;
+      }
+      li {
+        a {
+          font-size: 16px;
+          font-stretch: condensed;
+          font-weight: bold;
+          display: block;
+          padding-top: 27px;
+          padding-bottom: 27px;
+          padding-left: 30px;
+          line-height: 16px;
+          color: $bijela;
+          text-decoration: none;
+          transition: all 0.5s ease;
+        }
+        a:hover {
+          color: $zelena;
+        }
+      }
+    }
+  }
+}
+
+.areas {
+  .area{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .area {
+    .areas_title {
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $titlesiva;
+      margin-bottom: 30px;
+    }
+    .areas_text {
+      line-height: 30px;
+      font-size: 18px;
+      color: $sivaslova;
+    }
+  }
+}
+#skills{
+  .areas {
+    .area {
+      .areas_text {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+.my_skill {
+  padding-top: 40px;
+}
+.my_skill {
+  .skills_title {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: $titlesiva;
+    font-weight: bold;
+  }
+}
